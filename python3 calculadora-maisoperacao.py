@@ -17,6 +17,13 @@ class Calculadora:
                 resultado = first_number + second_number
                 print ( 'O resultado da soma é '+ str(resultado))
                 
+            if operacao == '2': 
+                first_number = int(input('Digite o primeiro número: '))
+                second_number = int(input('Digite o segundo número: '))
+                resultado = first_number - second_number
+                print ( 'O resultado da subtração é '+ str(resultado))
+                
+   
 
             if operacao == 5:
                 sys.exit()
